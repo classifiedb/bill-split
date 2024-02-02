@@ -87,6 +87,7 @@ export default function App() {
         <FormSplitBill
           selectedFriend={selectedFriend}
           onSplitBill={handleSplitBill}
+          //the key to reset the state whenever the component is called on a different friend
           key={selectedFriend.id}
         />
       )}
